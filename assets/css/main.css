@@ -1,0 +1,188 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+body {
+    background-color: #EEEEEE;
+}
+ul {
+    text-decoration: none;
+    list-style:none;
+}
+ .navbar {
+font-family: 'Inter', sans-serif;
+height: 90px;
+background-color: #fff;
+}
+.navbar-brand {
+    font-weight: 700;
+    font-size: 30px;
+}
+.dot {
+    font-weight: 700;
+    color: #ce1212;
+}
+.btn {
+    background-color: #ce1212;
+    border-radius: 50px;
+    padding: 8px 20px;
+    font-size: 14px;
+}
+.navbar-nav {
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-item {
+    color: #7f7f90;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.nav-item :hover{
+    color: #000;
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner img {
+    width: 451px;
+    height: 451px;
+}
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 64px;
+    font-weight: 700;
+    color: #37373f;
+}
+.banner p {
+    color: #4f4f5a;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 20px 0px 30px;
+}
+.book-a-table {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 36px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    background:#ce1212;
+    box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
+}
+.banner-buttons {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.banner-buttons i {
+    color:#ce1212;
+    font-size: 36px;
+    margin-right: 5px;
+}
+
+.banner-buttons a {
+    font-size: 16px;
+    transition: 0.5s;
+    margin-left: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #212529;
+}
+.banner-buttons span {
+    margin-left: 5px;
+    text-align: center;
+}
+.dropdown-item {
+    color: #7f7f90;
+    font-size: 16px;
+    font-weight: 600;
+}
+.dropdown-item:hover {
+    color: #ce1212;
+}
+.about-us {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    background-color: white;
+    padding: 100px 0px 30px;
+}
+.about-us h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #7f7f90;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.section-header p {
+    font-size: 48px;
+    font-weight: 400;
+    font-family:'Amatic SC', cursive ;
+}
+.section-header span {
+    color: #ce1212;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.about-us-left img {
+    height: calc(100vh + 150px);
+    width: 650px;
+}
+.about-us-left {
+    position: relative;
+}
+.white-div {
+    position: absolute;
+    width: 75%;
+    height: 150px;
+    background-color: white;
+    top: 550px;
+    left: 80px;
+    color: black;
+    text-align: center;
+}
+.white-div p {
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.white-div span {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ce1212;
+}
+.about-us-right {
+    width: 35%;
+    text-align:justify;
+    color: #212529;
+    font-size: 16px;
+}
+.about-us-right i {
+    color: #ce1212;
+    
+}
+.image {
+    width: 100% ;
+    height: auto;
+}
