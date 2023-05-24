@@ -107,6 +107,8 @@ h1 {
     color: #212529;
 }
 .banner-buttons span {
+    position: relative;
+    top: -8px;
     margin-left: 5px;
     text-align: center;
 }
@@ -145,8 +147,8 @@ h1 {
     justify-content: space-between;
 }
 .about-us-left img {
-    height: calc(100vh + 150px);
-    width: 650px;
+   width: 700px;
+    height: 750px;
 }
 .about-us-left {
     position: relative;
@@ -185,4 +187,253 @@ h1 {
 .image {
     width: 100% ;
     height: auto;
+    margin-top: 18px;
+}
+.about-us-right-img {
+    position: relative;
+}
+.about-us-right-img i{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    font-size:70px;
+}
+.why-us {
+    width: 450px;
+    height: 400px;
+    padding: 30px;
+    background:#ce1212;
+    color: #fff;
+}
+.why-yummy {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+}
+.why-us h3 {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+
+}
+.why-us button {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 6px 30px 8px 30px;
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    transition: all ease-in-out 0.4s;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+.why-us button:hover {
+    color:#ce1212;
+    background: #fff;
+}
+.why-us-articles {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.why-us-articles article {
+    width: 255px;
+    text-align: center;
+    background: #fff;
+    padding: 40px 30px;
+    border: 1px solid rgba(55, 55, 63, 0.1);
+    transition: 0.5s;
+    height: 360px;
+    margin-top: 20px;
+}
+.why-us-articles article:hover {
+    transform: scale(1.1);
+}
+.why-us-articles article i {
+    color:#ce1212;
+    font-size: 32px;
+    margin-bottom: 30px;
+    background: rgba(206, 18, 18, 0.1);
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 65px;
+    width: 60px;
+    height: 60px;
+}
+.why-us-articles article h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+}
+.why-us-articles article p {
+    font-size: 15px;
+    color: #6c757d;
+}
+.stats-counter {
+    background-attachment: fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(	https://bootstrapmade.com/demo/templates/Yummy/assets/img/stats-bg.jpg
+    ) center center;
+    background-size: cover;
+    padding: 100px 0;
+}
+.row {
+    display: flex;
+}
+.stats-item span {
+    font-size: 48px;
+    display: block;
+    color: #fff;
+    font-weight: 700;
+}
+.stats-item p {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.6);
+}
+.menu {
+    overflow: hidden;
+    background-color: #fff;
+    padding: 80px 0;
+}
+.section-header {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section-header h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #7f7f90;
+}
+.section-header p {
+    font-size: 48px;
+    font-weight: 400;
+    font-family:'Amatic SC', cursive;
+}
+.section-header span {
+    color: #ce1212;
+}
+.menu-field {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+.menu-field li {
+    margin: 0 10px;
+    padding: 10px 5px;
+    transition: 0.3s;
+    color:#212529;
+    border-radius: 0;
+    cursor: pointer;
+    height: 100%;
+    border: 0;
+    border-bottom:#7f7f90 solid 2px;
+}
+.menu-field li:hover {
+    border-bottom: 2px solid  #b6b6bf;
+}
+.menu-field li:hover a{
+    color: #ce1212;
+}
+.menu-field li a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+    
+}
+.menu-header2 {
+    text-align: center;
+    margin-top: 40px;
+}
+.menu-header2 p {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #676775;
+    margin-bottom: 0px;
+}
+.menu-header2 h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #ce1212;
+}
+.menu-articles {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+text-align: center;
+margin-top: 100px;
+row-gap: 80px;
+}
+.menu-articles article {
+    width: calc(100% / 3 - 10px);
+}
+.menu-articles article img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.menu-articles article h4 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.menu-articles article p {
+    color: #8d8d9b;
+    margin-bottom: 5px;
+}
+.menu-articles article span {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ce1212;
+}
+.testimonials {
+    margin-top: 80px;
+}
+.container-carousel {
+    width: 60%;
+    margin: 0px auto;
+}
+.carousel-item {
+    border-left:#ce1212 3px solid ;
+    padding-left: 30px;
+    margin-bottom: 100px;
+}
+.carousel-item i {
+    color: #f05656;
+    font-size: 26px;
+}
+.carousel-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+.carousel-item h4 {
+    font-size: 14px;
+    color: #6c757d;
+    margin: 0 0 10px 0;
+}
+.stars i {
+    color: #ffc107;
+    margin: 0 1px;
+    font-size: 16px;
+}
+.carousel-item img {
+    border-radius: 50%;
+    border: 4px solid #fff;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+}
+.events {
+    background-color: white ;
+    padding-top: 100px;
+    
 }
