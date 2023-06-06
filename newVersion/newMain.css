@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+.navbar {
+    font-family: 'Inter', sans-serif;
+    height: 90px;
+    background-color: white !important;
+    }
+    .navbar-brand {
+        font-size: 28px;
+        font-weight: 700;
+        font-family: "Inter", sans-serif;
+    }
+    .dot {
+        font-weight: 700;
+        color: #ce1212;
+        border-radius: 50px;
+    }
+    .btn {
+        background-color: #ce1212;
+        border-radius: 50px;
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+    .navbar-nav {
+        width: 70%;
+        margin: 0px auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-item a {
+        color: #7f7f90;
+        font-size: 16px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+    }
+    .nav-item a :hover{
+        color: black !important;
+    }
+    .dropdown-item {
+        color: #7f7f90;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .dropdown-item:hover {
+        color: #ce1212;
+    }
+    .banner {
+        width: 100%;
+    background-size: cover;
+    position: relative;
+    min-height: 60vh;
+    padding: 160px 0 60px 0;
+    background-color: #EEEEEE;
+    }
+    h1 {
+        font-family: 'Amatic SC', cursive;
+        font-size: 64px;
+        font-weight: 700;
+        color: #37373f;
+    }
+    .banner p {
+        color: #4f4f5a;
+        font-weight: 400;
+        font-size: 16px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 20px 0px 30px
+    }
+    .book-a-table {
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 12px 36px;
+        border-radius: 50px;
+        transition: 0.5s;
+        color: #fff;
+        background:#ce1212;
+        box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2)
+    }
+    .banner-buttons {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .banner-buttons i {
+        color:#ce1212;
+        font-size: 36px;
+        margin-right: 5px;
+    }
+    
+    .banner-buttons a {
+        font-size: 16px;
+        transition: 0.5s;
+        margin-left: 25px;
+        font-weight: 600;
+        text-decoration: none;
+        color: #212529;
+    }
+    .banner-buttons span {
+        margin-left: 5px;
+        text-align: center;
+        position: relative;
+        top: -8px;
+    }
+   .banner img {
+    width: 451px;
+    height: 451px;
+    padding-top: 50px;
+
+   }
+.call-us {
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    background-color: #fff;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    text-align: center;
+}
+.section-header {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section-header h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #7f7f90;
+    text-transform: uppercase;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.section-header p {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: "Amatic SC", sans-serif;
+}
+.section-header span {
+    color: #ce1212;
+}
+
+
+
+
+
+   @media screen and (min-width: 992px){
+    .banner img {
+        margin-right: 0px !important;
+    }
+    
+   }
