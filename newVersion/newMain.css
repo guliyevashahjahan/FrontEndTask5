@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
-
+ul li {
+    list-style: none;
+}
 header {
     position: sticky;
     top: 0px;
@@ -15,6 +17,7 @@ header {
         font-size: 28px;
         font-weight: 700;
         font-family: "Inter", sans-serif;
+        border: none;
     }
     .dot {
         font-weight: 700;
@@ -112,8 +115,8 @@ header {
         top: -8px;
     }
    .banner img {
-    width: 451px;
-    height: 451px;
+    width: 526px;
+    height: 526px;
     padding-top: 50px;
 
    }
@@ -149,11 +152,59 @@ header {
 .section-header span {
     color: #ce1212;
 }
+.about-img {
+    background-image: url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/about.jpg);
+    min-height: 500px;
+}
+.call-us h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.call-us p {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ce1212;
+}
 
+.content ul li {
+    padding: 0 0 26px;
+    position: relative;
 
-
-
-
+}
+.content ul li i {
+    position: absolute;
+    font-size: 20px;
+    left: -30px;
+    top: 5px;
+    color: #ce1212;
+}
+.about .play-btn {
+    width: 94px;
+    height: 94px;
+    background: radial-gradient(#ce1212 50%, rgba(206, 18, 18, 0.4) 52%);
+    color: white;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: calc(50% - 47px);
+    top: calc(50% - 47px);
+    overflow: hidden;
+}
+.about .play-btn::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #fff;
+    z-index: 100;
+    transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
    @media screen and (min-width: 992px){
     .banner img {
         margin-right: 0px !important;
