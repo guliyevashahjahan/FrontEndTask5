@@ -3,6 +3,10 @@
 ul li {
     list-style: none;
 }
+a {
+    text-decoration: none;
+  
+}
 header {
     position: sticky;
     top: 0px;
@@ -114,6 +118,9 @@ header {
         position: relative;
         top: -8px;
     }
+    .banner-buttons span:hover {
+        color: #ce1212;
+    }
    .banner img {
     width: 526px;
     height: 526px;
@@ -152,6 +159,9 @@ header {
 .section-header span {
     color: #ce1212;
 }
+.about {
+    padding-bottom: 100px;
+}
 .about-img {
     background-image: url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/about.jpg);
     min-height: 500px;
@@ -168,7 +178,7 @@ header {
 }
 
 .content ul li {
-    padding: 0 0 26px;
+    padding-bottom: 16px;
     position: relative;
 
 }
@@ -205,9 +215,84 @@ header {
     z-index: 100;
     transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
+.section-bg {
+    background-color: #eee;
+}
+.why-us {
+    padding: 80px 0px;
+}
+.why-box {
+    padding: 30px;
+    background :#ce1212;
+    color: #fff;
+}
+.why-box h3 {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+.why-box p {
+    margin-bottom: 30px;
+}
+.text-center {
+    text-align: center!important;
+}
+.more-btn {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 6px 30px 8px 30px;
+    color: #fff;
+    border-radius: 50px;
+    transition: all ease-in-out 0.4s;
+}
+.more-btn:hover {
+    background-color: white;
+    color: #ce1212;
+}
+.icon-box {
+    text-align: center;
+    background: #fff;
+    padding: 40px 30px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(55, 55, 63, 0.1);
+    transition: 0.3s;
+}
+.icon-box i {
+    color: #ce1212;
+    margin-bottom: 30px;
+    font-size: 32px;
+    margin-bottom: 30px;
+    background: rgba(206, 18, 18, 0.1);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+}
+.icon-box h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+}
+.icon-box p {
+    font-size: 15px;
+    color: #6c757d;
+}
+.icon-box {
+    transform: scale(0.95);
+}
+.icon-box:hover {
+    transform: scale(1.05);
+}
+
+
+
+
    @media screen and (min-width: 992px){
     .banner img {
         margin-right: 0px !important;
     }
-    
-   }
+   
+}
