@@ -286,6 +286,32 @@ header {
 .icon-box:hover {
     transform: scale(1.05);
 }
+.stats-counter {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(	https://bootstrapmade.com/demo/templates/Yummy/assets/img/stats-bg.jpg) center center;
+    background-size: cover;
+    padding: 100px 0;
+}
+.stats-item {
+    padding: 50px 30px 30px 30px;
+}
+.stats-item span {
+    font-size: 48px;
+    display: block;
+    color: #fff;
+    font-weight: 700;
+}
+.stats-item p {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
 
 
 
