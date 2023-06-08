@@ -310,6 +310,7 @@ header {
 }
 .menu {
     margin-top: 100px;
+    margin-bottom: 80px;
 }
 .menu .nav-link {
     margin: 0 10px;
@@ -375,6 +376,144 @@ header {
     font-weight: 700;
     color: #ce1212;
 }
+.testimonials {
+    padding-top: 80px;
+}
+.container-carousel {
+    width: 60%;
+    margin: 0px auto;
+}
+.carousel-item {
+    border-left:#ce1212 3px solid ;
+    padding-left: 30px;
+    margin-bottom: 100px;
+}
+.carousel-item i {
+    color: #f05656;
+    font-size: 26px;
+}
+.carousel-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+.carousel-item h4 {
+    font-size: 14px;
+    color: #6c757d;
+    margin: 0 0 10px 0;
+}
+.stars i {
+    color: #ffc107;
+    margin: 0 1px;
+    font-size: 16px;
+}
+.carousel-item img {
+    border-radius: 50%;
+    border: 4px solid #fff;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.events {
+    padding-top: 80px;
+}
+.chefs {
+    padding-top: 80px;
+}
+.chef-member {
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 0 30px rgba(55, 55, 63, 0.08);
+    transition: 0.3s;
+}
+.chef-member:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 0 30px rgba(55, 55, 63, 0.15);
+}
+.member-img {
+    position: relative;
+    overflow: hidden;
+}
+.social {
+    position: absolute;
+    right: -100%;
+    top: 30px;
+    opacity: 0;
+    border-radius: 4px;
+    transition: 0.5s;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 2;
+
+}
+.chef-member:hover .social {
+    right: 8px;
+    opacity: 1;
+}
+.social a {
+    transition: color 0.3s;
+    color: rgba(55, 55, 63, 0.4);
+    margin: 15px 12px;
+    display: block;
+    line-height: 0;
+    text-align: center;
+}
+.social i {
+    font-size: 18px;
+}
+.member-info {
+    padding: 10px 15px 20px 15px;
+}
+.member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color:#37373f;
+}
+.member-info span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(33, 37, 41, 0.4);
+}
+.member-info p {
+    font-style: italic;
+    font-size: 14px;
+    padding-top: 15px;
+    line-height: 26px;
+    color: rgba(33, 37, 41, 0.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
