@@ -484,10 +484,23 @@ header {
     line-height: 26px;
     color: rgba(33, 37, 41, 0.7);
 }
-
-
-
-
+.book-a-table {
+    padding-top: 80px;
+}
+.reservation-form-bg {
+    background: rgba(55, 55, 63, 0.04);
+}
+.php-email-form {
+    padding: 12px 15px;
+}
+.php-email-form button {
+    background: #ce1212;
+    border: 0;
+    padding: 14px 60px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
 
 
 
