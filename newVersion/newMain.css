@@ -555,12 +555,62 @@ header {
 .form-group {
     padding-bottom: 20px;
 }
+.footer {
+    font-size: 14px;
+    background-color: #1f1f24;
+    padding: 50px 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+.icon {
+    margin-right: 15px;
+    font-size: 24px;
+    line-height: 0;
+    position: relative;
+    top: 14px;
 
+}
+.footer h4 {
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 5px;
+    color: #fff;
+}
+.footer p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-right: 10px;
+    transition: 0.3s;
 
-
-
-
-
+}
+.social-links a:hover {
+    color: #fff;
+    border-color: #fff;
+}
+.copyright {
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.credits {
+    padding-top: 4px;
+    text-align: center;
+    font-size: 13px;
+}
+.credits a {
+    color: #fff;
+}
 
 
 
